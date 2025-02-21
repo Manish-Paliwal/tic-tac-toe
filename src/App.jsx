@@ -92,7 +92,7 @@ const TicTacToe = () => {
           setBoard(newBoard);
           setTurn("X");
         }
-      }, 300);
+      }, 500);
     }
   }, [turn, board, winner, mode]);
 
